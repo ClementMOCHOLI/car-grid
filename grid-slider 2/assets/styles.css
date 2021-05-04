@@ -86,36 +86,68 @@ body{
   margin: 5px;
 }
 
-figure{
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
+
+
+.item>h1{
+  font-size: 3em;
+  margin: 2%;
   color: white;
-  width: 80%;
-  margin-left: 10%;
+}
+
+.history{
+  color: white;
+  width: 25%;
+  height: auto;
+  padding: 2%;
+}
+
+.model{
+  width: 20%;
+  margin-left: 75%;
+  color: white;
+  margin-top: 10%;
+}
+
+.engine{
+  width: 150px;
+  height: auto;
+  margin-left: 80%;
+  margin-top: -35%;
+}
+
+.img-engine{
+  width: 150px;
+  height: auto;
 }
 
 figcaption{
-  margin-left: 10%;
-  padding: 1%;
+  color: white;
 }
 
-figure>audio{
-  display: inline;
-  width: 80%;
-  margin-left: 10%;
-  padding: 1%;
-}
-
-#item15{
-  background: url(cars/nissan/gtr.png);
+#item2{
+  background: url(cars/alpine/alpine-a110.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-position: center;
   background-color: #3F3F3F;
 }
 
-#item15>h1{
-  font-size: 3em;
-  margin: 2%;
-  color: white;
+
+
+#item3{
+  background: url(cars/bugatti/chiron.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  background-color: #3F3F3F;
+}
+
+
+
+#item15{
+  background: url(cars/nissan/gtr.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  background-color: #3F3F3F;
 }

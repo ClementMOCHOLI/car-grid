@@ -1,3 +1,4 @@
-let playnissan = function(){document.getElementById("nissansound").play()}
-
-let playalpine = function(){document.getElementById("alpinesound").play()}
+document.getElementById('playalpine').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('alpinesound').play();
+});
